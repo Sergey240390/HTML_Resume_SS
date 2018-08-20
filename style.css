@@ -1,22 +1,78 @@
+body{
+	position:absolute;
+	left:20px;
+}
 pre {
- font-family: Arial Black;
+	font-family: Arial Black;
+}
+.profession{
+	font-family: Arial Black;
 }
 .main{
 	position:static;
 	width:850px;
 }
+.section_personal{
+	position:absolute;
+	width:850px;
+}
 .personal{
 	position:absolute;
-	top:120px;
 	left:10px;
 	width:600px;
 	height:300px;
 }
 .photo{
 	position:absolute;
-	top:120px;
 	left:650px;
 }
-
+.section_education{
+	position:absolute;
+	top:450px;
+	width:850px;
+}
+.education{
+	position:absolute;
+	left:10px;
+}
+.education_info{
+	position:absolute;
+	left:250px;
+}
+.education_title{
+	font-family: Arial Black;
+}
+.section_work{
+	position:absolute;
+	top:650px;
+	width:850px;
+}
+.work{
+	position:absolute;
+	left:10px;
+}
+.work_info{
+	position:absolute;
+	left:250px;
+}
+.work_title{
+	font-family: Arial Black;
+}
+.section_skill{
+	position:absolute;
+	top:850px;
+	width:850px;
+}
+.skill{
+	position:absolute;
+	left:10px;
+}
+.skill_info{
+	position:absolute;
+	left:220px;
+}
+.skill_title{
+	font-family: Arial Black;
+}
 
 
