@@ -1,78 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
+
 body{
 	position:absolute;
-	left:20px;
+	left:30px;
 }
-pre {
-	font-family: Arial Black;
-}
-.profession{
-	font-family: Arial Black;
-}
-.main{
-	position:static;
+.info{
+	position:relative;
 	width:850px;
 }
 .section_personal{
-	position:absolute;
+	position:relative;
 	width:850px;
 }
 .personal{
 	position:absolute;
-	left:10px;
-	width:600px;
-	height:300px;
+	top:0;
+	left:0;
+	width:620px;
 }
 .photo{
 	position:absolute;
-	left:650px;
+	top:0;
+	right:0;
+	width:210px;
 }
 .section_education{
-	position:absolute;
-	top:450px;
+	position:relative;
+	top:310px;
 	width:850px;
 }
 .education{
 	position:absolute;
-	left:10px;
+	top:0;
+	left:0;
 }
 .education_info{
 	position:absolute;
-	left:250px;
-}
-.education_title{
-	font-family: Arial Black;
+	top:0;
+	right:0;
+	width:600px;
 }
 .section_work{
-	position:absolute;
-	top:650px;
+	position:relative;
+	top:500px;
 	width:850px;
-}
-.work{
+}.work{
 	position:absolute;
-	left:10px;
+	top:0;
+	left:0;
 }
 .work_info{
 	position:absolute;
-	left:250px;
-}
-.work_title{
-	font-family: Arial Black;
+	top:0;
+	right:0;
+	width:600px;
 }
 .section_skill{
-	position:absolute;
-	top:850px;
+	position:relative;
+	top:690px;
 	width:850px;
 }
 .skill{
 	position:absolute;
-	left:10px;
+	top:0;
+	left:0;
 }
 .skill_info{
 	position:absolute;
-	left:220px;
+	top:0;
+	right:0;
+	width:625px;
 }
-.skill_title{
+pre {
 	font-family: Arial Black;
 }
+
+h1, pre, p, .education_title, .work_title, .skill_title, li, .education_title, .work_title, .skill_title, .profession{
+	font-family: 'Cormorant Infant', serif;
+}
+
 
 
