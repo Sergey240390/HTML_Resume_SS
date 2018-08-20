@@ -3,6 +3,8 @@
 body{
 	position:absolute;
 	left:30px;
+	background: url(http://file.vforum.vn/hinh/2015/05/hinh-nen-powerpoint-don-gian-7.jpg) no-repeat center left fixed;
+	background-size: cover;
 }
 .info{
 	position:relative;
@@ -38,7 +40,7 @@ body{
 	position:absolute;
 	top:0;
 	right:0;
-	width:600px;
+	width:620px;
 }
 .section_work{
 	position:relative;
@@ -53,7 +55,7 @@ body{
 	position:absolute;
 	top:0;
 	right:0;
-	width:600px;
+	width:620px;
 }
 .section_skill{
 	position:relative;
@@ -69,15 +71,128 @@ body{
 	position:absolute;
 	top:0;
 	right:0;
-	width:625px;
+	width:645px;
 }
-pre {
-	font-family: Arial Black;
-}
-
 h1, pre, p, .education_title, .work_title, .skill_title, li, .education_title, .work_title, .skill_title, .profession{
 	font-family: 'Cormorant Infant', serif;
 }
+.dws1 {
+	position: absolute;
+	top: 70%;
+	left: 97%;
+	transform: translate(-50%, -50%);
+}
+.dws2 {
+	position: absolute;
+	top: 70%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+}
+.dws3 {
+	position: absolute;
+	top: 70%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+}
+.button1{
+	border: 2px solid #4169E0;
+	font-size: 25px;
+	color: #4169E0;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	font-family: 'Cormorant Infant', serif;
+	font-weight: bold;
+	position: relative;
+	transition: .3s;
+	overflow: hidden;
+}
+.button2 {
+	border: 2px solid #B22222;
+	font-size: 25px;
+	color: #B22222;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	font-family: 'Cormorant Infant', serif;
+	font-weight: bold;
+	position: relative;
+	transition: .3s;
+	overflow: hidden;
+}
+.button3 {
+	border: 2px solid #B22222;
+	font-size: 25px;
+	color: #B22222;
+	text-decoration: none;
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	font-family: 'Cormorant Infant', serif;
+	font-weight: bold;
+	position: relative;
+	transition: .3s;
+	overflow: hidden;
+}
+.button1::before, .button1::after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #4169E0;
+	top: 0;
+	left: -100%;
+	opacity: .5;
+	transition: .3s;
+	z-index: -1;
+}
+.button2::before, .button2::after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #B22222;
+	top: 0;
+	left: -100%;
+	opacity: .5;
+	transition: .3s;
+	z-index: -1;
+}
+.button3::before, .button3::after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #B22222;
+	top: 0;
+	left: -100%;
+	opacity: .5;
+	transition: .3s;
+	z-index: -1;
+}
+.button1::after, .button2::after, .button3::after {
+	opacity: 1;
+	transition-delay: .2s;
+}
+.button1:hover, .button2:hover,  .button3:hover {
+	color: #fff;
+}
+.button1:hover::before, .button1:hover::after, .button2:hover::before, .button2:hover::after, .button3:hover::before, .button3:hover::after {
+	left: 0;
+}
+
+
+
+
+
 
 
 
