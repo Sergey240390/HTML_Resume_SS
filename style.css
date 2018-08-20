@@ -3,7 +3,7 @@
 body{
 	position:absolute;
 	left:30px;
-	background: url(http://file.vforum.vn/hinh/2015/05/hinh-nen-powerpoint-don-gian-7.jpg) no-repeat center left fixed;
+	background: url(https://raw.githubusercontent.com/Sergey240390/HTML_Resume_SS/master/background.jpg) no-repeat center left fixed;
 	background-size: cover;
 }
 .info{
@@ -18,13 +18,13 @@ body{
 	position:absolute;
 	top:0;
 	left:0;
-	width:620px;
+	width:580px;
 }
 .photo{
 	position:absolute;
 	top:0;
 	right:0;
-	width:210px;
+	width:250px;
 }
 .section_education{
 	position:relative;
@@ -76,6 +76,9 @@ body{
 h1, pre, p, .education_title, .work_title, .skill_title, li, .education_title, .work_title, .skill_title, .profession{
 	font-family: 'Cormorant Infant', serif;
 }
+.profession{
+	font-size: 20px;
+}
 .dws1 {
 	position: absolute;
 	top: 70%;
@@ -85,25 +88,25 @@ h1, pre, p, .education_title, .work_title, .skill_title, li, .education_title, .
 .dws2 {
 	position: absolute;
 	top: 70%;
-	left: 90%;
+	left: 91%;
 	transform: translate(-50%, -50%);
 }
 .dws3 {
 	position: absolute;
 	top: 70%;
-	left: 70%;
+	left: 78.5%;
 	transform: translate(-50%, -50%);
 }
 .button1{
 	border: 2px solid #4169E0;
-	font-size: 25px;
+	font-size: 20px;
 	color: #4169E0;
 	text-decoration: none;
 	width: 40px;
 	height: 40px;
 	display: block;
 	text-align: center;
-	line-height: 35px;
+	line-height: 40px;
 	font-family: 'Cormorant Infant', serif;
 	font-weight: bold;
 	position: relative;
@@ -112,14 +115,14 @@ h1, pre, p, .education_title, .work_title, .skill_title, li, .education_title, .
 }
 .button2 {
 	border: 2px solid #B22222;
-	font-size: 25px;
+	font-size: 20px;
 	color: #B22222;
 	text-decoration: none;
 	width: 40px;
 	height: 40px;
 	display: block;
 	text-align: center;
-	line-height: 35px;
+	line-height: 40px;
 	font-family: 'Cormorant Infant', serif;
 	font-weight: bold;
 	position: relative;
@@ -127,15 +130,15 @@ h1, pre, p, .education_title, .work_title, .skill_title, li, .education_title, .
 	overflow: hidden;
 }
 .button3 {
-	border: 2px solid #B22222;
-	font-size: 25px;
-	color: #B22222;
+	border: 2px solid #008000;
+	font-size: 20px;
+	color: #008000;
 	text-decoration: none;
 	width: 150px;
 	height: 40px;
 	display: block;
 	text-align: center;
-	line-height: 35px;
+	line-height: 40px;
 	font-family: 'Cormorant Infant', serif;
 	font-weight: bold;
 	position: relative;
@@ -171,7 +174,7 @@ h1, pre, p, .education_title, .work_title, .skill_title, li, .education_title, .
 	content: '';
 	width: 100%;
 	height: 100%;
-	background: #B22222;
+	background: #008000;
 	top: 0;
 	left: -100%;
 	opacity: .5;
