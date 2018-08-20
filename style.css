@@ -1,4 +1,22 @@
 pre {
  font-family: Arial Black;
 }
+.main{
+	position:static;
+	width:850px;
+}
+.personal{
+	position:absolute;
+	top:120px;
+	left:10px;
+	width:600px;
+	height:300px;
+}
+.photo{
+	position:absolute;
+	top:120px;
+	left:650px;
+}
+
+
 
