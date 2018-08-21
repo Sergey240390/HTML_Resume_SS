@@ -217,3 +217,49 @@ b{
 .button1:hover::before, .button1:hover::after, .button2:hover::before, .button2:hover::after, .button3:hover::before, .button3:hover::after {
 	left: 0;
 }
+
+ .dws1{
+  animation-duration: 2s;
+  animation-name: slidein1;
+}
+ .dws2{
+  animation-duration: 1.5s;
+  animation-name: slidein2;
+}
+ .dws3 {
+  animation-duration: 1s;
+  animation-name: slidein3;
+}
+@keyframes slidein1 {
+  from {
+    margin-left: 100%;
+    width: 50%; 
+  }
+
+  to {
+    margin-left: 47.5%;
+    width: 100%;
+  }
+}
+@keyframes slidein2 {
+  from {
+    margin-left: 100%;
+    width: 50%; 
+  }
+
+  to {
+    margin-left: 47.5%;
+    width: 100%;
+  }
+}
+@keyframes slidein3 {
+  from {
+    margin-left: 100%;
+    width: 50%; 
+  }
+
+  to {
+    margin-left: 41.5%;
+    width: 100%;
+  }
+}
