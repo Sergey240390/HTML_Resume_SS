@@ -211,4 +211,8 @@ b{
 }
 .button1:hover::before, .button1:hover::after, .button2:hover::before, .button2:hover::after, .button3:hover::before, .button3:hover::after {
 	left: 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> refs/heads/master
