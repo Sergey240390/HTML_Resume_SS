@@ -19,9 +19,16 @@ body{
 }
 .personal{
 	position:absolute;
+	font-weight: bold;
 	top:0;
 	left:0;
 	width:580px;
+}
+.personal_info{
+	position:absolute;
+	top:0;
+	left:230px;
+	width:180px;
 }
 .photo{
 	position:absolute;
@@ -79,23 +86,21 @@ body{
 pre, p, .education_title, .work_title, .skill_title, li, .profession{
 	font-family: 'Cormorant Infant', serif;
 }
-.education_title, .work_title, .skill_title{
+.education_title, .work_title, .skill_title, .personal{
   color:  #1E90FF;
 }
 .profession{
   position: absolute;
   color: #FFFFFF;
-	top: 60%;
-	left: 22%;
-	transform: translate(-50%, -50%);
+	top: 100px;
+	left: 20px;
 	font-size: 20px;
 }
 h1{
   position: absolute;
   color: #FFFFFF;
-	top: 30%;
-	left: 28%;
-	transform: translate(-50%, -50%);
+  top: 40px;
+  left: 20px;
 }
 b{
   color: #1E90FF;
@@ -211,8 +216,4 @@ b{
 }
 .button1:hover::before, .button1:hover::after, .button2:hover::before, .button2:hover::after, .button3:hover::before, .button3:hover::after {
 	left: 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> refs/heads/master
