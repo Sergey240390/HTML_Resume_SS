@@ -5,7 +5,8 @@ body{
 }
 .main{
   background:
-  url(https://raw.githubusercontent.com/Sergey240390/HTML_Resume_SS/master/Header.jpg);     background-size: cover;
+  url(https://raw.githubusercontent.com/Sergey240390/HTML_Resume_SS/master/Header.jpg);     
+  background-size: cover;
   width:865px;
   height:180px;
 }
@@ -56,10 +57,12 @@ body{
 	position:relative;
 	top:500px;
 	width:850px;
-}.work{
+}
+.work{
 	position:absolute;
 	top:0;
 	left:0;
+  width:300px;
 }
 .work_info{
 	position:absolute;
@@ -76,6 +79,7 @@ body{
 	position:absolute;
 	top:0;
 	left:0;
+  width:390px;
 }
 .skill_info{
 	position:absolute;
@@ -83,43 +87,37 @@ body{
 	right:0;
 	width:645px;
 }
-pre, p, .education_title, .work_title, .skill_title, li, .profession{
+pre, p, li, .profession{
 	font-family: 'Cormorant Infant', serif;
 }
-.education_title, .work_title, .skill_title, .personal{
-  color:  #1E90FF;
-}
 .profession{
-  position: absolute;
-  color: #FFFFFF;
-	top: 100px;
-	left: 20px;
-	font-size: 20px;
+  position: relative;
+  top: 100px;
+  width:465px;
+  font-size: 20px;
 }
 h1{
   position: absolute;
   color: #FFFFFF;
-  top: 40px;
-  left: 20px;
-}
-b{
-  color: #1E90FF;
+  font-size: 35px;
+  top: 15px;
+  left: 10px;
 }
 .dws1 {
 	position: absolute;
-	top: 80%;
+	top: 65%;
 	left: 95%;
 	transform: translate(-50%, -50%);
 }
 .dws2 {
 	position: absolute;
-	top: 80%;
+	top: 65%;
 	left: 89%;
 	transform: translate(-50%, -50%);
 }
 .dws3 {
 	position: absolute;
-	top: 80%;
+	top: 65%;
 	left: 76.7%;
 	transform: translate(-50%, -50%);
 }
@@ -263,3 +261,135 @@ b{
     width: 100%;
   }
 }
+.lenta {
+  width: 48%;
+  height: 188px;
+  position: relative;
+  float: left;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+.lenta:nth-child(even) {
+  margin-right: 4%;
+}
+@media (max-width: 500px) {
+  .lenta {
+    width: 100%;
+  }
+  .lenta:nth-child(even) {
+    margin-right: 0%;
+  }
+}
+.education_title {
+  position: absolute;
+  top: 5px;
+  padding: 8px 10px;
+  background: #00B3ED;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+}
+.education_title:before, .education_title:after {
+  content: "";
+  position: absolute;
+}
+.education_title:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.education_title:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: lightblue;
+  border-radius: 5px 0 0 5px;
+ }
+.work_title {
+  position: absolute;
+  top: 5px;
+  padding: 8px 10px;
+  background: #00B3ED;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+}
+.work_title:before, .work_title:after {
+  content: "";
+  position: absolute;
+}
+.work_title:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.work_title:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: lightblue;
+  border-radius: 5px 0 0 5px;
+ }
+.skill_title {
+  position: absolute;
+  top: 5px;
+  padding: 8px 10px;
+  background: #00B3ED;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+}
+.skill_title:before, .education_title:after {
+  content: "";
+  position: absolute;
+}
+.skill_title:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.skill_title:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: lightblue;
+  border-radius: 5px 0 0 5px;
+ }
+.profession {
+  position: absolute;
+  top: 100px;
+  padding: 8px 10px;
+  background: #00B3ED;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+}
+.profession:before, .work_title:after {
+  content: "";
+  position: absolute;
+}
+.profession:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.profession:after{
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: lightblue;
+  border-radius: 5px 0 0 5px;
+ }
