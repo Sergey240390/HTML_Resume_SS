@@ -2,8 +2,12 @@
 body{
 	position:absolute;
 	left:30px;
-	background: url(https://raw.githubusercontent.com/Sergey240390/HTML_Resume_SS/master/background.jpg) no-repeat center left fixed;
-	background-size: cover;
+}
+.main{
+  background:
+  url(https://raw.githubusercontent.com/Sergey240390/HTML_Resume_SS/master/Header.jpg);     background-size: cover;
+  width:865px;
+  height:180px;
 }
 .info{
 	position:relative;
@@ -72,28 +76,46 @@ body{
 	right:0;
 	width:645px;
 }
-h1, pre, p, .education_title, .work_title, .skill_title, li, .education_title, .work_title, .skill_title, .profession{
+pre, p, .education_title, .work_title, .skill_title, li, .profession{
 	font-family: 'Cormorant Infant', serif;
 }
+.education_title, .work_title, .skill_title{
+  color:  #1E90FF;
+}
 .profession{
+  position: absolute;
+  color: #FFFFFF;
+	top: 60%;
+	left: 22%;
+	transform: translate(-50%, -50%);
 	font-size: 20px;
+}
+h1{
+  position: absolute;
+  color: #FFFFFF;
+	top: 30%;
+	left: 28%;
+	transform: translate(-50%, -50%);
+}
+b{
+  color: #1E90FF;
 }
 .dws1 {
 	position: absolute;
-	top: 70%;
-	left: 97%;
+	top: 80%;
+	left: 95%;
 	transform: translate(-50%, -50%);
 }
 .dws2 {
 	position: absolute;
-	top: 70%;
-	left: 91%;
+	top: 80%;
+	left: 89%;
 	transform: translate(-50%, -50%);
 }
 .dws3 {
 	position: absolute;
-	top: 70%;
-	left: 78.5%;
+	top: 80%;
+	left: 76.7%;
 	transform: translate(-50%, -50%);
 }
 .button1{
@@ -190,11 +212,3 @@ h1, pre, p, .education_title, .work_title, .skill_title, li, .education_title, .
 .button1:hover::before, .button1:hover::after, .button2:hover::before, .button2:hover::after, .button3:hover::before, .button3:hover::after {
 	left: 0;
 }
-
-
-
-
-
-
-
-
